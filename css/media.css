@@ -1,0 +1,33 @@
+@media screen and (min-width: 428px) {
+    .container {
+        min-width: 428px;
+    }
+    .benefists-item {
+        max-width: 396px;
+    }
+    }
+    @media screen and (min-width: 768px) {
+        .container {
+          max-width: 768px;
+        }
+        .benefists {
+            padding-top: 24px;
+            padding-bottom: 24px;
+        }
+        .benefists-list {
+            gap: 72px;
+        }
+    .benefists-item {
+        max-width: unset;
+        width: calc((100% - 24px) / 3);
+    }
+      }
+      @media screen and (min-width: 1158px) {
+        .container {
+        max-width: 1158px;
+        }
+        .benefists-item {
+            max-width: unset;
+            width: calc((100% - 72px) / 4);
+        }   
+      }
