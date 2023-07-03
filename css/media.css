@@ -1,19 +1,24 @@
 @media screen and (min-width: 428px) {
     .container {
-        max-width: 428px;
+        max-width: 296px;
         width: 100%;
       }
       .customers-item {
         width: calc((100% - 72px) / 2);
       }
     .team-item {
-      width: calc((100% - 72px) / 4);
+      width: calc((100% - 64px) / 2);
     } 
 }    
       @media screen and (min-width: 768px) {
         .container {
-          max-width: 768px;
+          max-width: 584px;
         }
+        .team-list {
+          gap: 24px;
+        }
+        .team-item {
+          width: calc((100% - 72px) / 4);
         }
         .benefists-list {
             flex-direction: row;
@@ -23,6 +28,7 @@
         .benefists-item {
           width: calc((100% - 24px) / 2);
       }
+    }
       
       @media screen and (min-width: 1158px) {
         .container {
@@ -30,4 +36,7 @@
           padding-left: 15px;
           padding-right: 15px;
         }
+      .team-item {
+                width: calc((100% - 72px) / 4);
+      }
       }
