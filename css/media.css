@@ -1,33 +1,33 @@
 @media screen and (min-width: 428px) {
     .container {
-        min-width: 428px;
-    }
-    .benefists-item {
-        max-width: 396px;
-    }
-    }
-    @media screen and (min-width: 768px) {
+        max-width: 428px;
+        width: 100%;
+      }
+      .customers-item {
+        width: calc((100% - 72px) / 2);
+      }
+    .team-item {
+      width: calc((100% - 72px) / 4);
+    } 
+}    
+      @media screen and (min-width: 768px) {
         .container {
           max-width: 768px;
         }
-        .benefists {
-            padding-top: 24px;
-            padding-bottom: 24px;
         }
         .benefists-list {
-            gap: 72px;
-        }
-    .benefists-item {
-        max-width: unset;
-        width: calc((100% - 24px) / 3);
-    }
-      }
-      @media screen and (min-width: 1158px) {
-        .container {
-        max-width: 1158px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 72px 24px
         }
         .benefists-item {
-            max-width: unset;
-            width: calc((100% - 72px) / 4);
-        }   
+          width: calc((100% - 24px) / 2);
+      }
+      
+      @media screen and (min-width: 1158px) {
+        .container {
+          max-width: 1158px;
+          padding-left: 15px;
+          padding-right: 15px;
+        }
       }
