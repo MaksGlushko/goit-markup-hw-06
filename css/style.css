@@ -84,10 +84,12 @@ position: relative;
     position: relative;
     }
     .header-menu {
-        display: flex;
+        /* display: flex; */
+        display: none;
         gap: 40px;
         position: relative;
         color: #404bbf;
+        
     }
     .current {
         color: #404BBF;
@@ -157,7 +159,8 @@ position: relative;
         color: #404bbf
     }
     .header-address {
-        display: flex;
+        /* display: flex; */
+        display: none;
         gap: 40px;
         margin-left: auto;
     }
@@ -165,22 +168,27 @@ position: relative;
     .hero {
         background-color: #2E2F42;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg); 
-        padding: 188px 0;
-        max-width: 1440px;
+        /* padding: 188px 0; */
+        padding: 112px 0;
+        /* max-width: 1440px; */
+        max-width: 428px;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        height: 600px;
+        /* height: 600px; */
+        height: 432px;
         margin: 0 auto;
     }
     .hero-title {
         font-weight: 700;
-    font-size: 56px;
+    /* font-size: 56px; */
+    font-size: 36px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--color-white);
-    max-width: 320px;
+    /* max-width: 496px; */
+    max-width: 398px;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
@@ -351,7 +359,7 @@ position: relative;
     }
     .team-item {
         /* width: calc((100% - 72px) / 4); */
-        width: 100%;
+        width: 264px;
         background: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -385,8 +393,10 @@ position: relative;
     }
     /* --------------СOSTOMERS-------------- */
 .customers {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    /* padding-top: 120px;
+    padding-bottom: 120px; */
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 .logo-customers {
     font-family: 'Roboto';
@@ -447,10 +457,11 @@ margin-bottom: 72px;
     color: #4D5AE5;
     display: inline-block;
     margin-bottom: 16px;
+    display: flex;
     }
-    .web-defs {
+    /* .web-defs {
         margin-right: 120px;
-    }
+    } */
     .web-title span {
         font-weight: 800;
     font-size: 18px;
@@ -458,6 +469,8 @@ margin-bottom: 72px;
     letter-spacing: 0.03em;
     color: #F4F4FD;
     text-transform: uppercase;
+    display: block;
+    text-align: center;
     }
     .web-item-text{
     font-weight: 400;
@@ -478,6 +491,7 @@ margin-bottom: 72px;
     display: flex;
     align-items: baseline;
     margin-bottom: 16px;
+    justify-content: center;
     
     }
     .web-container {
@@ -488,6 +502,7 @@ margin-bottom: 72px;
     .media-web {
         display: flex;
         gap: 16px;
+        justify-content: center;
     }
     .sending-web {
         width: 100%;
@@ -508,7 +523,8 @@ margin-bottom: 72px;
         fill: #F4F4FD;
     }
     .footer-container {
-        display: flex;
+        /* display: flex; */
+
         flex-wrap: wrap;
         align-items: baseline;   
     }
@@ -528,14 +544,15 @@ margin-bottom: 72px;
     color: #FFFFFF;
     }
     .subs-box {
-        display: flex;
+        /* display: flex; */
         gap: 24px;
     }
-    .sub-container {
+    /* .sub-container {
         margin-left: 80px;
-    }
+    } */
     .subs-input {
-        width: 264px;
+        /* width: 264px; */
+        width: 100%;
         height: 40px;
         border: 1px solid #ffffff;
         background-color: transparent;
@@ -553,6 +570,8 @@ margin-bottom: 72px;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-right: 0 auto;
+        margin-top: 16px;
     }
     .subs-btn {
         font-family: "Roboto", sans-serif;
