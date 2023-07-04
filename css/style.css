@@ -164,6 +164,107 @@ position: relative;
         gap: 40px;
         margin-left: auto;
     }
+    /* -----------MOBILE-MENU------------ */
+    .open-menu-btn {
+ 
+    }
+    .mob-menu {
+        position: fixed;
+        width: 100vw;
+        top: 0;
+        z-index: 2;
+        height: 100vh;
+        background-color: #ffffff;
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow: auto;
+    }
+    .close-menu-btn {
+        display: block;
+        margin-left: auto;
+        color: #2e2f42;
+        background-color: transparent;
+        border: none;
+        margin-bottom: 32px;
+    }
+    .mob-menu-list {
+        font-size: 36px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    padding-left: 40px;
+    margin-bottom: 50px;
+    }
+    .list {
+    }
+    .mob-title-item:not(:last-child){
+        margin-bottom: 40px;
+    }
+    .mob-text-link {
+    }
+    .link {
+    }
+    .current {
+    }
+    .mob-address {
+        padding-left: 40px;
+    
+    }
+    .mob-soc-list {
+    }
+    .mob-soc-item {
+        margin-bottom: 40px;
+    }
+    .mob-soc-phone {
+        font-size: 36px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+
+    }
+    .mob-soc-title {
+        font-size: 20px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.4px;
+color: #2E2F42;
+    }
+    .mob-icons {
+        display: flex;
+        padding-left: 40px;
+        gap: 56px;
+    }
+    .mob-icon-team {
+        width: 40px;
+        height: 40px;
+        background-color: var(--color-two);
+        border-radius: 50%; 
+        gap: 24px;
+    }
+    .mob-sending {
+        width: 100%;
+        height: 100%;
+        background-color: var(--color-two);
+        border-radius: 50%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        transition :background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .mob-icons-soc {
+   
+    }
     /* --------------HERO-------------- */
     .hero {
         background-color: #2E2F42;
@@ -272,6 +373,7 @@ position: relative;
         padding: 32px 16px;
         text-align: center;
         margin-bottom: 8px;
+        width: 100%;
     }
     /* --------------PRODUCTS-------------- */
     .products {
@@ -456,8 +558,14 @@ margin-bottom: 72px;
     text-transform: uppercase;
     color: #4D5AE5;
     display: inline-block;
+    margin-right: 0 auto;
     margin-bottom: 16px;
-    display: flex;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
     }
     /* .web-defs {
         margin-right: 120px;
@@ -469,8 +577,9 @@ margin-bottom: 72px;
     letter-spacing: 0.03em;
     color: #F4F4FD;
     text-transform: uppercase;
-    display: block;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     }
     .web-item-text{
     font-weight: 400;
@@ -498,6 +607,7 @@ margin-bottom: 72px;
         display: block;
         margin: 0 auto;
         text-align: center;
+        margin-top: 72px;
     }
     .media-web {
         display: flex;
@@ -542,14 +652,17 @@ margin-bottom: 72px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin-bottom: 16px;
+text-align: center;
     }
     .subs-box {
         /* display: flex; */
         gap: 24px;
     }
-    /* .sub-container {
-        margin-left: 80px;
-    } */
+    .sub-container {
+        width: 100%;
+        margin-top: 72px;
+    }
     .subs-input {
         /* width: 264px; */
         width: 100%;
@@ -570,10 +683,8 @@ margin-bottom: 72px;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-right: 0 auto;
+        margin: 0 auto;
         margin-top: 16px;
-    }
-    .subs-btn {
         font-family: "Roboto", sans-serif;
         font-style: normal;
         font-weight: 500;
@@ -591,6 +702,9 @@ margin-bottom: 72px;
     }
     .subs-icons {
         margin-left: 16px;
+    }
+    .sub-label {
+        display: flex;
     }
     /* --------------WINDOW-------------- */
 
