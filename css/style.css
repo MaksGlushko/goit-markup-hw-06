@@ -43,7 +43,6 @@
    
     .header-mob {
         border-bottom: 1px solid #e7e9fc;
-        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
         padding: 23px 0;
     }
     .header-container {
@@ -173,8 +172,8 @@ position: relative;
     }
     /* -----------MOBILE-MENU------------ */
     .open-menu-btn {
-        border-radius:none;
-        color: transparent;
+        border: none;
+    background-color: transparent;
     }
     .mob-menu {
         position: fixed;
@@ -190,12 +189,21 @@ position: relative;
         overflow: auto;
         margin: auto;
     }
+    .menu-btn-close {
+width: 8px;
+height: 8px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+    }
     .close-menu-btn {
+        width: 24px;
+        height: 24px;
         display: block;
         margin-left: auto;
-        color: #2e2f42;
-        background-color: transparent;
-        border: none;
+        line-height: 0;
+        border-radius: 50%;
+        border: 1px solid var(--main-title-color);
         margin-bottom: 32px;
     }
     .active {
