@@ -41,9 +41,10 @@
     }
     /* --------------HEADER-------------- */
    
-    .header {
+    .header-mob {
         border-bottom: 1px solid #e7e9fc;
         box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+        padding: 23px 0;
     }
     .header-container {
         display: flex;
@@ -130,11 +131,13 @@ position: relative;
         list-style: none;
     }
     .header-soc-title {
+        font-size: 12px;
+        font-family: Roboto;
+        font-style: normal;
         font-weight: 400;
-        font-size: 16px;
-        line-height: 1.50;
-        letter-spacing: 0.02em;
-        color: var(--main-text-color);
+        line-height: 14px;
+        letter-spacing: 0.48px;
+        color: #2E2F42;
         width: 153px;
         height: 24px;
         padding: 24px 0;
@@ -165,9 +168,12 @@ position: relative;
         gap: 40px;
         margin-left: auto;
     }
+    .charm-menu {
+  background-color: #2E2F42;
+    }
     /* -----------MOBILE-MENU------------ */
     .open-menu-btn {
- 
+        border:none;
     }
     .mob-menu {
         position: fixed;
@@ -181,6 +187,7 @@ position: relative;
         flex-direction: column;
         justify-content: space-between;
         overflow: auto;
+        margin: auto;
     }
     .close-menu-btn {
         display: block;
@@ -190,16 +197,18 @@ position: relative;
         border: none;
         margin-bottom: 32px;
     }
-    .mob-menu-list {
-        font-size: 36px;
+    .active {
+        color: #404BBF;
+    }
+    .mob-text-link {
+   font-size: 36px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
-    padding-left: 40px;
-    margin-bottom: 50px;
+    color: #2e2f42;
     }
     .list {
     }
@@ -217,19 +226,10 @@ position: relative;
     
     }
     .mob-soc-list {
+        margin: auto;
     }
     .mob-soc-item {
         margin-bottom: 40px;
-    }
-    .mob-soc-phone {
-        font-size: 36px;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 40px;
-        letter-spacing: 0.72px;
-        text-transform: capitalize;
-
     }
     .mob-soc-title {
         font-size: 20px;
@@ -240,10 +240,21 @@ line-height: 24px;
 letter-spacing: 0.4px;
 color: #2E2F42;
     }
+    .tel-link {
+        color: #404BBF;
+    }
     .mob-icons {
         display: flex;
-        padding-left: 40px;
-        gap: 56px;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+    .mael-link {
+        color: #434455;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     }
     .mob-icon-team {
         width: 40px;
@@ -269,7 +280,7 @@ color: #2E2F42;
     /* --------------HERO-------------- */
     .hero {
         background-color: #2E2F42;
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg); 
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mob.hero.jpg); 
         /* padding: 188px 0; */
         padding: 112px 0;
         /* max-width: 1440px; */
