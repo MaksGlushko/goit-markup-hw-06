@@ -173,7 +173,8 @@ position: relative;
     }
     /* -----------MOBILE-MENU------------ */
     .open-menu-btn {
-        border:none;
+        border-radius:none;
+        color: transparent;
     }
     .mob-menu {
         position: fixed;
@@ -181,7 +182,7 @@ position: relative;
         top: 0;
         z-index: 2;
         height: 100vh;
-        background-color: #ffffff;
+        background-color: #FFFFFF;
         padding: 24px;
         display: flex;
         flex-direction: column;
