@@ -343,12 +343,7 @@ color: #2E2F42;
     .benefists {
         padding: 96px 0;
     }
-    .benefists-list {
-        display: flex;
-        gap: 72px 24px;
-        flex-wrap: wrap;
-        text-align: center;
-    }
+
     .visually-hidden { 
         position: absolute; 
         width: 1px; 
@@ -360,6 +355,12 @@ color: #2E2F42;
         clip-path: inset(100%);
         clip: rect(0 0 0 0);
         overflow: hidden; 
+    }
+    .bfs-list {
+        display: flex;
+        gap: 72px 24px;
+        flex-wrap: wrap;
+        text-align: center;
     }
     .icon-container {
         display: none;
@@ -589,9 +590,9 @@ margin-bottom: 72px;
     margin-right: auto;
 
     }
-    /* .web-defs {
-        margin-right: 120px;
-    } */
+    .web-defs {
+        margin:0 auto;
+    }
     .web-title span {
         font-weight: 800;
     font-size: 18px;
@@ -629,7 +630,6 @@ margin-bottom: 72px;
         display: block;
         margin: 0 auto;
         text-align: center;
-        margin-top: 72px;
     }
     .media-web {
         display: flex;
@@ -862,7 +862,6 @@ margin-bottom: 72px;
         align-items: center;
         justify-content: center;
         fill: transparent;  
-        margin: 8px;
     }
     .input-checkbox:checked + .modal-privacy > .icon-modal  {
         background-color: #404BBF;

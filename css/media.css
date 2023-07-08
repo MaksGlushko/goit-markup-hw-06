@@ -16,9 +16,10 @@ flex-shrink: 0;
 }
 .sub-container{
     width: 100%;
-    margin-top: 72px;
 }
+
 }  
+
   
 @media screen and (min-width:768px) {
     .container {
@@ -38,6 +39,58 @@ flex-shrink: 0;
         justify-content: center;
     
     }
+    .benefists-list {
+        display: flex;
+        gap: 72px 24px;
+        flex-wrap: wrap;
+    }
+    .hero {
+        background-color: #2E2F42;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tablet.people.office.jpg); 
+        /* padding: 188px 0; */
+        padding: 112px 0;
+        /* max-width: 1440px; */
+        max-width: 768px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        /* height: 600px; */
+        height: 432px;
+        margin: 0 auto;
+    }
+    .modal {
+        width: 95%;
+        max-width: 392px;
+        height: 95%;
+        max-height: 594px;
+        overflow: scroll;
+    }
+    .web-title {
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4D5AE5;
+        display: inline-block;
+        margin-right: 0 auto;
+        margin-bottom: 16px;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    
+        }
+        .subs-text {
+            margin-bottom: 16px;
+            font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        margin-bottom: 16px;
+        }
  
     .web-container {
         display: block;
@@ -45,6 +98,7 @@ flex-shrink: 0;
         text-align: center;
 
     }
+
     .customers-item  {
        
         width: 168px;
@@ -82,16 +136,6 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
         gap: 12px;
 
     }
-    .subs-text {
-        margin-bottom: 16px;
-        font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-    margin-bottom: 16px;
-    }
     .open-menu-btn {
         display: none;
     }
@@ -99,6 +143,9 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
         display: flex;
     flex-direction: row;
     align-items: unset;
+    }
+    .web-defs {
+        margin: 0 auto;
     }
     .subs-btn {
         margin: 0;
@@ -146,14 +193,12 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
         padding-top: 96px;
         padding-bottom: 96px;
     }
-    
 }
     .modal {
         width: 95%;
         max-width: 392px;
         height: 95%;
         max-height: 594px;
-        overflow: scroll;
     }
 
 @media screen and (min-width: 768px) {
@@ -254,9 +299,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
       .benefists-subtitle {
           display: flex;
       }
-      .benefists-list {
-          gap: 72px 24px;
-    }
+ 
       .benefists-item {
           max-width: unset; 
           width:calc((100% - 24px) / 2 ); 
@@ -388,7 +431,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
           background-position: center;
       
               background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-              url(../images/people.in.office.jpg) ;
+              url(../images/people-office.x1.jpg) ;
               background-repeat:no-repeat ;
               background-size:cover;
       }
@@ -397,7 +440,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
        (min-resolution: 2dppx) { 
           .hiro-section {
               background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-              url(../images/people.in.office.jpg) ;
+              url(../images/people-office.x2.jpg.) ;
               background-repeat:no-repeat ;
               background-size:cover;
           }  
