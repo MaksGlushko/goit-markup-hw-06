@@ -6,14 +6,15 @@
     .container {
         max-width: 428px;
     }
-    .footer-web {
-        margin: 0 auto;
-    }
     .open-menu-icon {
         width: 32px;
 height: 22px;
 flex-shrink: 0;
 }
+.web-defs {
+    margin: 0 auto;
+}
+
 .bfs-list {
     display: flex;
     gap: 72px 24px;
@@ -24,14 +25,15 @@ flex-shrink: 0;
 .sub-container{
     width: 100%;
 }
-    .web-container {
-        display: block;
-        margin: 0 auto;
-        text-align: center;
-    }
+
 
 } 
- 
+@media screen and (min-width:767px) {
+    .container {
+       margin: 0 auto; 
+    }
+
+}
 
   
 @media screen and (min-width:768px) {
@@ -45,10 +47,6 @@ flex-shrink: 0;
     .header-address {
         display: flex;
     }
-    .web-defs {
-        /* margin: 0 auto; */
-     }
- 
     .customers-list {
         display: flex;
         flex-wrap: wrap;
@@ -64,7 +62,7 @@ flex-shrink: 0;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--color-two);
-       padding-right: 120px;
+       margin-right: 120px;
         position: relative;
              color: #404bbf;
         }
@@ -91,6 +89,15 @@ flex-shrink: 0;
         /* height: 600px; */
         height: 432px;
         margin: 0 auto;
+    }
+    .footer-container {
+        max-width: 584px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: baseline;
+        text-align: start;
+        row-gap: 72px;
+        column-gap: 24px;
     }
     .hero-title {
         font-weight: 700;
@@ -262,6 +269,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
                 background-image: linear-gradient(), url(../images/tab.people.x2-2x.jpg);
                 }
                 }
+
             
             
       .header-container {
@@ -284,9 +292,9 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
       display: list-item;
           text-align: -webkit-match-parent;
       } 
-      /* .open-menu-btn {
+      .open-menu-btn {
           display: none;
-          } */
+          }
        .header-menu {
           display: flex;
           align-items: center;

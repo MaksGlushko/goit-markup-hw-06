@@ -626,15 +626,13 @@ margin-bottom: 72px;
     align-items: baseline;
     margin-bottom: 16px;
     justify-content: center;
-    
     }
-    /* .web-defs {
-        margin: 0 auto;
-    } */
     .web-container {
         display: block;
         text-align: center;
+        margin: 0 auto;
     }
+
     .media-web {
         display: flex;
         gap: 16px;
