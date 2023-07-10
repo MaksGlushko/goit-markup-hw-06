@@ -11,8 +11,11 @@
 height: 22px;
 flex-shrink: 0;
 }
-.tel-link {
-    font-size: 24px;
+.bfs-list {
+    display: flex;
+    gap: 72px 24px;
+    flex-wrap: wrap;
+    text-align: center;
 }
 .sub-container{
     width: 100%;
@@ -43,6 +46,10 @@ flex-shrink: 0;
         display: flex;
         gap: 72px 24px;
         flex-wrap: wrap;
+    }
+    .benefists-item {
+        width: 356px;
+        display: list-item;
     }
     .hero {
         background-color: #2E2F42;
