@@ -42,6 +42,18 @@ flex-shrink: 0;
         justify-content: center;
     
     }
+    .header-logo {
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--color-two);
+       padding-right: 120px;
+        position: relative;
+             color: #404bbf;
+        }
     .benefists-list {
         display: flex;
         gap: 72px 24px;
@@ -50,6 +62,7 @@ flex-shrink: 0;
     .benefists-item {
         width: 356px;
         display: list-item;
+        text-align: left;
     }
     .hero {
         background-color: #2E2F42;
@@ -64,6 +77,20 @@ flex-shrink: 0;
         /* height: 600px; */
         height: 432px;
         margin: 0 auto;
+    }
+    .hero-title {
+        font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--color-white);
+    max-width: 496px;
+    /* max-width: 398px; */
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 48px;
     }
     .modal {
         width: 95%;
@@ -97,6 +124,7 @@ flex-shrink: 0;
         letter-spacing: 0.02em;
         color: #FFFFFF;
         margin-bottom: 16px;
+        text-align: left;
         }
  
     .web-container {
@@ -254,7 +282,6 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
           align-items: center;
           padding: 24px 0;
           gap: 40px;
-          padding-left:76px ;
           color:  #2E2F42;
           font-size: 16px;
           font-weight: 500;
@@ -489,6 +516,7 @@ text-align: center;
     border-radius: 4px;
     margin-bottom: 8px;
 }
+
     
       .customers-list {
           flex-wrap: nowrap;
