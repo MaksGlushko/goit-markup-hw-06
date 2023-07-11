@@ -784,8 +784,11 @@ margin-bottom: 72px;
     .vector-btn {
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .modal :hover , .modal :focus {
-        fill: #404BBF
+    .icons-modal-input:hover .svg-modal {
+        fill: #404BBF;
+    }
+    .icons-modal-input:focus .svg-modal {
+        fill: #404BBF;
     }
     .modal-text {
         font-weight: 500;
