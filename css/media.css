@@ -45,6 +45,10 @@ flex-shrink: 0;
     .header-address {
         display: flex;
     }
+        .form {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
     .customers-list {
         display: flex;
         flex-wrap: wrap;
@@ -72,6 +76,10 @@ flex-shrink: 0;
     .benefists-item {
         width: 356px;
         display: list-item;
+        text-align: left;
+    }
+    .benefists-subtitle {
+        text-transform: capitalize;
         text-align: left;
     }
     .hero {
@@ -533,8 +541,24 @@ text-align: center;
     border-radius: 4px;
     margin-bottom: 8px;
 }
-
-    
+.mob-menu {
+    display: none;
+}
+    .header-logo {
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--color-two);
+       margin-right: 76px;
+        position: relative;
+             color: #404bbf;
+        }
+    .benefists {
+        padding: 120px 0;
+    }
       .customers-list {
           flex-wrap: nowrap;
           gap: 24px;

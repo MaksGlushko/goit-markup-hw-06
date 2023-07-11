@@ -232,8 +232,8 @@ flex-shrink: 0;
     .current {
     }
     .mob-soc-list {
-        margin: auto;
-        padding-top: 284px;
+        margin-bottom: auto;
+
     }
     .mob-soc-item {
         margin-bottom: 40px;
@@ -377,12 +377,14 @@ text-transform: capitalize;
         margin-bottom: 8px;
     }
     .benefists-subtitle {
-        font-size: 36px;
         font-weight: 700;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        color: var(--dark-color);
-        margin-bottom: 8px;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--main-subtitle-color);
+    margin-bottom: 8px;
+    text-align: center;
+    text-transform: capitalize;
     }
     
     .benefists-item-text {
@@ -399,7 +401,6 @@ text-transform: capitalize;
     .team-person {
         padding: 32px 16px;
         text-align: center;
-        margin-bottom: 8px;
         width: 100%;
     }
     /* --------------PRODUCTS-------------- */
@@ -438,7 +439,7 @@ text-transform: capitalize;
     }
     .team-list {
         display: flex;
-        gap: 72px;
+        gap: 64px 24px;
         justify-content: center;
         flex-wrap: wrap;
     }
@@ -740,6 +741,7 @@ margin-bottom: 72px;
         background-color: rgba(46, 47, 66, 0.4);
         transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
         visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        overflow-y: scroll;
     }
     .modal {
         position: absolute;
@@ -774,8 +776,12 @@ margin-bottom: 72px;
     .data-button:hover, .data-button:focus {
         background-color: #404bbf;
         border: none; 
+        fill: #FFFFFF;
     }
-    
+    .form {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
     .is-hidden {
         opacity: 0;
         visibility: hidden; 
@@ -875,25 +881,25 @@ margin-bottom: 72px;
         fill: #F4F4FD;
     }
     .modal-link {
-        color : #4d5ae5;    
+        color : #4d5ae5;  
     }
     .btn-send {
-    display: block;
-    min-width: 169px;
-    height: 56px;
-    padding: 16px 32px;
-    margin: 0 auto;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.50;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    cursor: pointer;
-    background-color: #4D5AE5;
-    border: none;
-    border-radius: 4px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        display: block;
+        min-width: 169px;
+        height: 56px;
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #ffffff;
+        cursor: pointer;
+        background-color: #4d5ae5;
+        border: none;
+        border-radius: 4px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        margin: 0 auto;
+        text-align: center;
     }
     .icons-container {
         position: relative;
